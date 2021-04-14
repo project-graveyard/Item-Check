@@ -10,12 +10,12 @@ def show():
     print('{0:^30}'.format('_'*30))
     print('{0:^15}{1:^15}'.format('Items', 'Price'))
     print('{0:^30}'.format('_'*30))
-	
+
     for x in items.keys():
         print('{0:^15}{1:^15}'.format(x, items[x]))
-	
+
     print('{0:^30}'.format('_'*30))
- 
+
 
 def add():
     print('\n\n')
@@ -31,7 +31,7 @@ def add():
 
         new_price = input("Enter unit price of {0}: ".format(new_item))
         print('\n')
-        
+
         try:
             float(new_price)
         except:
@@ -39,14 +39,14 @@ def add():
             continue
         else:
             unit_price = float(new_price)
-        
+
         items[new_item] = unit_price
-    
+
     with open('stock.txt', 'w') as f:
         json.dump(items, f)
     print('\n\n')
     print("Stocks updated".upper())
-    
+
 
 def remove():
     print('\n\n')
@@ -59,14 +59,14 @@ def remove():
         elif item_name == "":
             print('invalid input, try again\n')
             continue
-        
+
         items.pop(item_name)
-    
+
     with open('stock.txt', 'w') as f:
         json.dump(items, f)
     print('\n\n')
     print("Stocks updated".upper())
-    
+
 
 def index():
     while True:
