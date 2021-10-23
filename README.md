@@ -1,6 +1,6 @@
 # Item-Check
 
-It allows you to keep track of items in stock, add or remove items, produce receipts, automated stocks update and saving of daily transactions to files for easy monitoring of day to day transactions.
+It allows you to keep track of items in stock, add or remove items, produce receipts, automate stock updates, and save daily transactions to files to monitor day-to-day transactions easily.
 
 ## Screenshots
 ![Screenshot from 2021-10-09 21-05-55](https://user-images.githubusercontent.com/53381103/136673812-a01ad66b-f915-4347-b7e1-086224e86bac.png)
