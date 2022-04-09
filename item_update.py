@@ -47,6 +47,8 @@ def add():
     print('\n\n')
     print("Stocks updated".upper())
 
+# Testing comment
+
 
 def remove():
     print('\n\n')
