@@ -17,7 +17,7 @@ print(' !. Note: If no items are left for input, Enter \'done\'\n\n')
 
 
 while True:
-    buy = input('Item bought :').lower()
+    buy = input('Item bought: ').lower()
 
     if buy == 'done':
         break

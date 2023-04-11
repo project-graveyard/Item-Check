@@ -11,7 +11,7 @@ def itemCount():
     print('\n\n')
     print(' !. Note: If no items are left for input, Enter \'done\'\n')
     while True:
-        buy = input('Item bought :').lower()
+        buy = input('Item bought: ').lower()
 
         if buy == 'done':
             break
